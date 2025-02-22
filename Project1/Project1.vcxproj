@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="11.배열.c" />
+    <ClCompile Include="12.포인터.c" />
     <ClCompile Include="13.배열 2.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

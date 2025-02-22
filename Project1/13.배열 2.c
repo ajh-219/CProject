@@ -111,13 +111,32 @@ int main()
 
 	int value4[3][3];
 	value = 1;
+	
+	for (int i = 0; i < 3; i++)
+	{
+		if (i % 2 == 0)
+		{
+			for (int j = 0; j < 3; j++)
+			{
+				value4[i][j] = value++;
+			}
+		}
+		else
+		{
+			for (int j = 2; j >= 0; j--)
+			{
+				value4[j][i] = value++;
+			}
+		}
+	}
 
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 3; j++)
 		{
-			value[i][j]++;
+			printf("%d ", value4[i][j]);
 		}
+		printf("\n");
 	}
 
 	// 도전 과제 2
