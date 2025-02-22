@@ -381,7 +381,57 @@ if(조건식) <br>
 	조건식이 만족할 때 실행할 명령문; <br>
 } <br>
 
-if - else문
+if - else문 <br>
+ 
+if(조건식)<br>
+{<br>
+	조건식이 만족할 때 실행할 명령문;<br>
+}<br>
+else <br>
+{<br>
+	조건식이 만족하지 않았을 경우 실행할 명령문;<br>
+}<br>
+
+if - else if문 <br>
+if(조건식)<br>
+{<br>
+	조건식이 만족할 때 실행할 명령문;<br>
+}<br>
+else if(조건식2)<br>
+{<br>
+	위의 조건식이 만족하지 않고, 조건식2가 만족하고 있는 경우 실행할 명령문;<br>
+}<br>
+
+ex)
+```c
+#define _CRT_SECURE_NO)WARNINGS
+#include <stdio.h>
+
+int main()
+{
+	int number1, number2;
+
+	printf("두개의 정수를 입력해 주세요. (단, 큰 수를 먼저 입력합니다.) >> ");
+	scanf("%d %d", &number1, &number2);
+
+	if (number1 > number2)
+	{
+		printf("두 수의 곱은 %d 입니다.\n", number1 * number2);
+	}
+	else
+	{
+		printf("number1이 number2보다 더 큰 값이어야 합니다.\n");
+	}
+	return 0;
+}
+```
+
+# 배열
+
+
+
+
+
 
 
 [목차로](#목차)
