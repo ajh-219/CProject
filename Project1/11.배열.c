@@ -14,7 +14,7 @@
 // 배열의 크기를 구하는 방법
 //	sizeof(배열명);
 
-
+ 
 int main()
 {
 	int iArray[5]; // 0 ~ 4
