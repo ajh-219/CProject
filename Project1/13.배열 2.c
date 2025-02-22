@@ -114,11 +114,11 @@ int main()
 	
 	for (int i = 0; i < 3; i++)
 	{
-		if (i % 2 == 0)
+		if (i % 2 == 1)
 		{
 			for (int j = 0; j < 3; j++)
 			{
-				value4[i][j] = value++;
+				value4[j][i] = value++;
 			}
 		}
 		else
