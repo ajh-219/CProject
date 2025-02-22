@@ -29,7 +29,7 @@ int main()
 
 	printf("a ^ b = %d\n", c);
 
-	c = 6;
+	cc = 6;
 	printf("%d\n", ~c);
 	// NOT 연산
 	// 비트를 반대로 처리하는 연산

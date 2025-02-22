@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6.연산자2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5.연산자.c">
+    <ClCompile Include="13.배열 2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
