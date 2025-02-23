@@ -3,6 +3,8 @@
 #include <math.h> // 수학 기능 제공
 
 
+
+
 int main()
 {
 	printf("root 4 = %.2f\n", sqrt(4));
@@ -15,6 +17,7 @@ int main()
 	// 힌트 : 2차 방정식을 풀기 위해선 근의 공식을 이용해봅시다.
 
 
+	
 
 
 	// 2. 다음 조건을 만족하는 printRank를 구현하세요.
@@ -24,6 +27,8 @@ int main()
 	printRank(rank); // 2nd
 	rank = 3;
 	printRank(rank); // 3rd
+
+
 
 	// 3. 다음 조건을 만족하는 average를 구현하세요.
 	float result1 = average(3, 100, 95, 90); // 95.00
