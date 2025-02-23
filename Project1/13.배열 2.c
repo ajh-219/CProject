@@ -105,31 +105,33 @@ int main()
 
 
 	// 도전 과제 1
-	// 1 2 3
-	// 6 5 4
-	// 7 6 5
+	// 1 2 3   00 01 02
+	// 6 5 4   10 11 12
+	// 7 6 5   20 21 22
 
 	int value4[3][3];
 	value = 1;
 	
+	// 패턴 구현
+	// value4[i][j]라고 할 때, i가 짝수인 경우는 j가 순차적으로 증가할 때, 값이 추가합니다.
 	for (int i = 0; i < 3; i++)
 	{
-		if (i % 2 == 1)
+		if (i % 2 == 0)
 		{
 			for (int j = 0; j < 3; j++)
 			{
-				value4[j][i] = value++;
+				value4[i][j] = value++;
 			}
 		}
 		else
 		{
 			for (int j = 2; j >= 0; j--)
 			{
-				value4[j][i] = value++;
+				value4[i][j] = value++;
 			}
 		}
 	}
-
+	// 출력
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 3; j++)
@@ -140,10 +142,54 @@ int main()
 	}
 
 	// 도전 과제 2
-	// 1 2 3
-	// 9 8 4
-	// 7 6 5
+	// 1 2 3   00 01 02
+	// 9 8 4   10 11 12
+	// 7 6 5   20 21 22
 
+	int value5[3][3];
+	value = 1;
+
+	int top = 0;
+	int bottom = 2;
+	int left = 0;
+	int right = 2;
+
+	for (int arrays = 0; arrays < (sizeof(value5) / sizeof(int)) - 1; arrays++)
+	{
+		// -> 방향 구현
+		for (int i = left; i <= right; i++)
+		{
+			value5[top][i] = value++;
+		}
+		top++;
+		
+		for (int i = top; i <= bottom; i++)
+		{
+			value5[i][right] = value++;
+		}
+		right--;
+		// 아래 방향 구현
+		for (int i = right; i >= left; i--)
+		{
+			value5[bottom][i] = value++;
+		}
+		bottom--;
+		// <- 방향 구현
+		for (int i = bottom; i >= top; i--)
+		{
+			value5[i][left] = value++;
+		}
+		left++;
+	}
+	// 출력
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
+			printf("%d ", value5[i][j]);
+		}
+		printf("\n");
+	}
 
 
 	return 0;

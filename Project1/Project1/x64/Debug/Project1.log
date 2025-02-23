@@ -1,2 +1,3 @@
-﻿  13.배열 2.c
-  Project1.vcxproj -> C:\ajh\CProject\Project1\x64\Debug\Project1.exe
+﻿  16.함수 3.c
+C:\ajh\CProject\Project1\16.함수 3.c(51,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\ajh\CProject\Project1\16.함수 3.c(61,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
