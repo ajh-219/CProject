@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="19.연습문제 2.c" />
+=======
+    <ClCompile Include="22.연습문제1.c" />
+>>>>>>> 3043f57a2a3b60d9f715773ce3782ab03b8ce94c
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
