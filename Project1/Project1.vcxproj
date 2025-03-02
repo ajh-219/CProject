@@ -19,16 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="19.연습문제 2.c" />
-=======
-    <ClCompile Include="22.연습문제1.c" />
->>>>>>> 3043f57a2a3b60d9f715773ce3782ab03b8ce94c
+    <ClCompile Include="21 문자열 관련 기능.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4cd93049-1496-4085-ab15-d2f0cdb7d512}</ProjectGuid>
+    <ProjectGuid>{74340ccf-8f1d-40f2-aab3-f5f9068d9385}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

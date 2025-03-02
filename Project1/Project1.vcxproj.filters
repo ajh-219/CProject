@@ -15,11 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="19.연습문제 2.c">
-=======
-    <ClCompile Include="22.연습문제1.c">
->>>>>>> 3043f57a2a3b60d9f715773ce3782ab03b8ce94c
+    <ClCompile Include="21 문자열 관련 기능.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
