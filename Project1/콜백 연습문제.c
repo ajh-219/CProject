@@ -4,22 +4,22 @@
 typedef void(*callback)(void);
 
 void setCallback1(callback);
-void setCallback2(callback);
 void useCallback(void);
 void useFunction(void);
 
-callback user_callback1 = NULL;
-callback user_callback2 = NULL;
+
+
+callback user_callback = NULL;
+
 
 
 int main()
 {
 	printf("아이디를 입력해주세요. >> \n");
-	scanf("%c", user_callback1);
-	useCallback();
-
+	scanf("%c", id);
+	
 	printf("비밀번호를 입력해주세요. >> \n");
-	scanf("%c", user_callback2);
+	scanf("%d", pw);
 	useCallback();
 
 	return 0;
@@ -27,12 +27,7 @@ int main()
 
 void setCallback1(callback fp)
 {
-	user_callback1 = fp;
-}
-
-void setCallback2(callback pw)
-{
-	user_callback2 = pw;
+	user_callback = fp;
 }
 
 void useCallback(void)
