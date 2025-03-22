@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="기초">
+      <UniqueIdentifier>{dbd84d36-b71d-4c0e-8a49-15bd51ac4ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이론">
+      <UniqueIdentifier>{544d634b-ddc3-45bd-9b5f-be773e264513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="연습문제">
+      <UniqueIdentifier>{aaf8fa0d-9c38-4abf-b50c-7f65543b30fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="6.basic.cpp">
+      <Filter>기초</Filter>
+    </ClCompile>
+    <ClCompile Include="1.Cplus.cpp">
+      <Filter>이론</Filter>
+    </ClCompile>
+    <ClCompile Include="2.iostream.cpp">
+      <Filter>이론</Filter>
+    </ClCompile>
+    <ClCompile Include="3.namespace.cpp">
+      <Filter>이론</Filter>
+    </ClCompile>
+    <ClCompile Include="4.Data.cpp">
+      <Filter>이론</Filter>
+    </ClCompile>
+    <ClCompile Include="5.string io.cpp">
+      <Filter>이론</Filter>
+    </ClCompile>
+    <ClCompile Include="랜덤 사다리.cpp">
+      <Filter>연습문제</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
